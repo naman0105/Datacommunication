@@ -1,0 +1,55 @@
+body {
+	background: #999;
+	margin:0;
+	font-family:'sofia';
+	background-image: url('https://images2.alphacoders.com/242/242150.jpg');
+	background-size: 1400px;
+}
+
+.content {
+	margin-top: 150px;
+}
+
+.header{
+	/*the next line is to fix the header*/
+	position:fixed; top:0px; margin:auto; z-index:100000; width:100%;
+	padding-top:25px;
+	 box-shadow: 1px 1px 10px #888888;
+	 opacity :.75;
+	font-size:25px;
+	background: #666;
+	height: 100px;
+	color: white;
+	text-align: center;
+
+}
+
+p {
+	color:white;
+	font-size:40px;
+}
+a {
+	color: white;
+	height:100px;
+}
+a:hover {
+	background-color: black;
+}
+
+ul li{
+	font-size:30px;
+	background:#666;
+	padding:10px;
+}
+.col {
+	margin:10px;
+	padding:10px;
+	margin-right: 1000px;
+}
+
+
+
+h1 {
+	margin:0px;
+}
+
